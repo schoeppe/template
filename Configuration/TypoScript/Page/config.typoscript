@@ -46,7 +46,7 @@ config {
 
 
 
-[applicationContext = Production*]
+[applicationContext matches "#^Production#"]
     config {
         debug = 0
         admPanel = 0
@@ -63,7 +63,7 @@ config {
     }
 [global]
 
-[applicationContext = Development*, Production/Debug]
+[applicationContext matches "#^Development|^Production/Debug#"]
     config {
         debug = 1
         admPanel = 1
