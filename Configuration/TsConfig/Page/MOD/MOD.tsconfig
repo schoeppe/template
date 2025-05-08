@@ -5,7 +5,7 @@
 #                            Options for the backend modules
 #
 ########################################################################################
-<INCLUDE_TYPOSCRIPT: source="DIR:./BackendLayouts">
+@import 'BackendLayouts/Extra/extra_test.tsconfig'
 
 
 

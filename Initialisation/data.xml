@@ -909,7 +909,7 @@
 				<field index="file_mountpoints"></field>
 				<field index="file_permissions">readFolder,writeFolder,addFolder,renameFolder,moveFolder,deleteFolder,readFile,writeFile,addFile,renameFile,replaceFile,moveFile,copyFile,deleteFile</field>
 				<field index="lockToDomain"></field>
-				<field index="TSconfig">&lt;INCLUDE_TYPOSCRIPT: source=&quot;FILE:EXT:template/Configuration/TsConfig/User/admin.tsconfig&quot;&gt;</field>
+				<field index="TSconfig">@import 'template/Configuration/TsConfig/User/admin.tsconfig'</field>
 				<field index="subgroup"></field>
 				<field index="workspace_perms" type="integer">0</field>
 				<field index="category_perms"></field>
@@ -939,7 +939,7 @@
 				<field index="file_mountpoints"></field>
 				<field index="file_permissions">readFolder,writeFolder,addFolder,renameFolder,moveFolder,deleteFolder,readFile,writeFile,addFile,renameFile,replaceFile,moveFile,copyFile,deleteFile</field>
 				<field index="lockToDomain"></field>
-				<field index="TSconfig">&lt;INCLUDE_TYPOSCRIPT: source=&quot;FILE:EXT:template/Configuration/TsConfig/User/editor-default.tsconfig&quot;&gt;</field>
+				<field index="TSconfig">@import 'EXT:template/Configuration/TsConfig/User/editor-default.tsconfig'</field>
 				<field index="subgroup">8,12,11,7,13,10,5,1</field>
 				<field index="workspace_perms" type="integer">0</field>
 				<field index="category_perms"></field>
