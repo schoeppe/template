@@ -12,7 +12,7 @@ config {
     disablePrefixComment = 1
     meaningfulTempFilePrefix = 100
     htmlTag_setParams = class="no-js"
-    pageRendererTemplateFile = typo3conf/ext/template/Resources/Private/Templates/System/PageRenderer.html
+    pageRendererTemplateFile = EXT:template/Resources/Private/Templates/System/PageRenderer.html
     intTarget = {$styles.content.links.target}
     extTarget = {$styles.content.links.extTarget}
     index_enable = 1
